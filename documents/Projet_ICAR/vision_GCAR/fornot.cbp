@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="fornot" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\fornot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:\OpenCV2.2\include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\OpenCV2.2\lib\opencv_calib3d220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_video220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_objdetect220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_ml220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_legacy220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_imgproc220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_highgui220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_gpu220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_flann220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_ffmpeg220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_features2d220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_core220d.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_contrib220d.lib" />
+					<Add directory="C:\OpenCV2.2\lib" />
+					<Add directory="C:\OpenCV2.2\bin" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\fornot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g" />
+					<Add directory="C:\OpenCV2.2\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:\OpenCV2.2\lib\opencv_calib3d220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_highgui220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_video220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_ts220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_objdetect220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_ml220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_legacy220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_imgproc220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_gpu220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_flann220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_ffmpeg220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_features2d220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_core220.lib" />
+					<Add library="C:\OpenCV2.2\lib\opencv_contrib220.lib" />
+					<Add directory="C:\OpenCV2.2\lib" />
+					<Add directory="C:\OpenCV2.2\bin" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="analyse.cpp" />
+		<Unit filename="fonctions.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="positionVitesse.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

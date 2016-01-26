@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="analyse.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="929" topLine="1" />
+	</File>
+	<File name="fonctions.h" open="1" top="0" tabpos="3">
+		<Cursor position="172" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="855" topLine="0" />
+	</File>
+	<File name="positionVitesse.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="929" topLine="3" />
+	</File>
+</CodeBlocks_layout_file>
